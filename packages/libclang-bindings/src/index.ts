@@ -151,7 +151,7 @@ export function parse(opts: ParseOptions): TranslationUnit {
     args.push(`-I${dir}`);
   });
 
-  opts.preprocessorDefinitions.forEach((def) => {
+  opts.preprocessorDefinitions?.forEach((def) => {
     args.push(`-D ${def}`);
   });
 
