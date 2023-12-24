@@ -81,6 +81,7 @@ export enum Language {
    * C++ language
    */
   Cpp = "c++",
+  Objc = "objective-c",
 }
 
 /**
