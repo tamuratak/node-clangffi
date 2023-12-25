@@ -1,6 +1,6 @@
 import { lib } from "../lib";
 import { Cursor } from "./cursor";
-import { CXTranslationUnit, INativeHandle } from "./types";
+import type { CXTranslationUnit, INativeHandle } from "./types";
 
 export class TranslationUnit implements INativeHandle<CXTranslationUnit> {
   constructor(private ptr: CXTranslationUnit) {}

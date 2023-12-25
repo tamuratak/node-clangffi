@@ -1,6 +1,6 @@
 import { lib } from "../lib";
 import { CXCursorKind } from "../libclang";
-import { CXCursor, INativeHandle } from "./types";
+import type { CXCursor, INativeHandle } from "./types";
 import { readNativeString } from "../util";
 import { Type } from "../index";
 

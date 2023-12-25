@@ -3,7 +3,7 @@ import { alloc, ref } from "ref-napi";
 import { CXCursorKind, CXFileDef, CXTypeKind } from "../libclang";
 import { Cursor } from "./cursor";
 import { readNativeString } from "../util";
-import { CXCursor, CXSourceLocation } from "./types";
+import type { CXCursor, CXSourceLocation } from "./types";
 import { Type } from "./type";
 
 export class Decl extends Cursor {
