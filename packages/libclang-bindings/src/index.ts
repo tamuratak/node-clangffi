@@ -10,7 +10,7 @@ import {
 } from "./libclang";
 import { Cursor } from "./models/cursor";
 import { TranslationUnit } from "./models/translation-unit";
-import { CXCursor, CXTranslationUnit } from "./models/types";
+import type { CXCursor, CXTranslationUnit } from "./models/types";
 import {
   Decl,
   EnumConstantDecl,
@@ -22,7 +22,7 @@ import {
   UnionDecl,
   TypedefDecl,
 } from "./models/decl";
-import { DesugaredType, Type } from "./models/type";
+import { type DesugaredType, Type } from "./models/type";
 
 /**
  * Internal array type

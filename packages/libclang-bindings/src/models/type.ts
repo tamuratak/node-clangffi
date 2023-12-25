@@ -1,7 +1,7 @@
 import { lib } from "../lib";
 import { CXTypeKind } from "../libclang";
 import { readNativeString } from "../util";
-import { CXType, INativeHandle } from "./types";
+import type { CXType, INativeHandle } from "./types";
 
 /**
  * A symbol type from the clang AST
