@@ -1,5 +1,5 @@
 import ffi from "ffi-napi";
-import ref, { Pointer as TypedPointer, UnderlyingType } from "ref-napi";
+import ref, { type Pointer as TypedPointer, type UnderlyingType } from "ref-napi";
 import refStructDi, { StructObject } from "ref-struct-di";
 import refArrayDi, { TypedArray } from "ref-array-di";
 import refUnionDi from "ref-union-di";
