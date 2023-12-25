@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc -p .",
+    "build:watch": "tsc -w -p .",
     "prepublishOnly": "npm run build",
     "test": "jest"
   },
