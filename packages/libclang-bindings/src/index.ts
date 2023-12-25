@@ -1,5 +1,5 @@
 import { lib, openLib } from "./lib";
-import ref, { Pointer, NULL_POINTER } from "ref-napi";
+import ref, { type Pointer, NULL_POINTER } from "ref-napi";
 import refArrayDi from "ref-array-di";
 import {
   CXChildVisitResult,

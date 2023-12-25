@@ -1,4 +1,4 @@
-import { Pointer } from "ref-napi";
+import type { Pointer } from "ref-napi";
 import { StructObject } from "ref-struct-di";
 import { lib } from "./lib";
 
